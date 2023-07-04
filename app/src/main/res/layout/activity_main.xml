@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.lmjssjj.verticaltextview.VerticalTextView
+        android:id="@+id/vtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="两件事快递费是考虑到封建时代付了款拒收到付抗裂砂浆地方杀戮空间水电费连接速度冯老师会计法塞德里克封建时代李开复就撒到啦开发机"
+        app:columnCharCount="10"
+        app:isRtl="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:maxColumns="3"
+        app:text="两件事快递费是考虑到封建时代付了款拒收到付抗裂砂浆地方杀戮空间水电费连接速度冯老师会计法塞德里克封建时代李开复就撒到啦开发机"
+        app:textColor="@color/black" />
+
+    <Button
+        android:onClick="click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
